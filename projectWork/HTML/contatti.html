@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Viaggio di Istruzione | Contatti</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">🧳 Viaggio d'Istruzione</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinazione.html">Destinazioni</a></li>
+          <li><a href="programma.html">Programma</a></li>
+          <li><a href="contatti.html" class="active">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-container">
+      <h2>Richiesta Informazioni e Prenotazioni</h2>
+      <p>
+        Hai domande sul viaggio o vuoi procedere con la conferma della tua
+        iscrizione? Compila il modulo sottostante.
+      </p>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome e Cognome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Inserisci il tuo nome completo"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email istituzionale:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="nome.cognome@scuola.it"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="classe">Classe di appartenenza:</label>
+          <input
+            type="text"
+            id="classe"
+            name="classe"
+            placeholder="Es. 3F"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="messaggio">Note o intolleranze alimentari:</label>
+          <textarea
+            id="messaggio"
+            name="messaggio"
+            rows="5"
+            placeholder="Scrivi qui eventuali domande o segnalazioni utili per i docenti..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Invia Richiesta</button>
+      </form>
+
+      <div class="recapiti">
+        <h3>Recapiti Segreteria</h3>
+        <p>📞 Telefono: +39 0123 456789</p>
+        <p>📧 Email: viaggi@istitutosuperiore.edu.it</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 - Progetto Project Work statico multipagina HTML/CSS</p>
+    </footer>
+  </body>
+</html>
